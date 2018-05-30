@@ -12,7 +12,7 @@ class Anagram
     #w_array=array.map {|w| w.split("")}
     #matches=w_array.find_all {|x| x.sort==word.split("").sort}
     #matches.map {|y| y.join("")}
-  end#.sort.join("")}
+  #.sort.join("")}
 end
 
     #w_array.find_all {|x| x==word.split("").sort.join("")}
