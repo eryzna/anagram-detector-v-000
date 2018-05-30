@@ -8,7 +8,7 @@ class Anagram
   def match(array)
     w_array=array.map {|w| w.split("")}
     matches=w_array.find_all {|x| x.sort==name.split("").sort}
-    matches.map {|y| y.join("")
+    matches.map {|y| y.join("")}
   end #.sort.join("")}
 end
 
