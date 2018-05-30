@@ -6,7 +6,7 @@ class Anagram
   end
   def match(array)
       array.select {|x| x.split("").sort == @name.split("").sort}
-  end   
+  end
   #def match(array)
 
     #w_array=array.map {|w| w.split("")}
